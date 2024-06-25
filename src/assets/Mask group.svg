@@ -1,0 +1,19 @@
+<svg width="279" height="294" viewBox="0 0 279 294" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group">
+<mask id="mask0_172_11232" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="39" y="42" width="200" height="210">
+<ellipse id="Ellipse 1085" cx="102.702" cy="101.272" rx="102.702" ry="101.272" transform="matrix(0.582115 0.813107 -0.783697 0.621143 158.732 0.551758)" fill="#E1E7ED"/>
+</mask>
+<g mask="url(#mask0_172_11232)">
+<ellipse id="Ellipse 1086" cx="102.702" cy="101.272" rx="102.702" ry="101.272" transform="matrix(0.582115 0.813107 -0.783697 0.621143 158.732 0.551758)" fill="#532181"/>
+<rect id="Rectangle 34624102" width="7.0829" height="190.321" transform="matrix(0.582115 0.813107 -0.783697 0.621143 194.134 55.9929)" fill="#F7F7F7"/>
+<rect id="Rectangle 34624103" width="7.0829" height="190.321" transform="matrix(0.582115 0.813107 -0.783697 0.621143 207.534 74.7104)" fill="#F7F7F7"/>
+<rect id="Rectangle 34624104" width="7.0829" height="190.321" transform="matrix(0.582116 0.813106 -0.783698 0.621141 220.933 93.428)" fill="#F7F7F7"/>
+<rect id="Rectangle 34624105" width="7.0829" height="190.321" transform="matrix(0.582116 0.813106 -0.783698 0.621142 234.335 112.145)" fill="#F7F7F7"/>
+<rect id="Rectangle 34624106" width="7.0829" height="190.321" transform="matrix(0.582114 0.813107 -0.783697 0.621143 247.734 130.862)" fill="#F7F7F7"/>
+<rect id="Rectangle 34624107" width="7.0829" height="190.321" transform="matrix(0.582115 0.813107 -0.783697 0.621143 261.135 149.579)" fill="#F7F7F7"/>
+<rect id="Rectangle 34624110" width="7.0829" height="190.321" transform="matrix(0.582116 0.813106 -0.783698 0.621142 270.79 168.191)" fill="#F7F7F7"/>
+<rect id="Rectangle 34624108" width="7.0829" height="190.321" transform="matrix(0.582114 0.813107 -0.783697 0.621143 180.735 37.2754)" fill="#F7F7F7"/>
+<rect id="Rectangle 34624109" width="7.0829" height="190.321" transform="matrix(0.582115 0.813107 -0.783697 0.621143 167.334 18.5588)" fill="#F7F7F7"/>
+</g>
+</g>
+</svg>
