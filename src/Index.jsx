@@ -57,7 +57,7 @@ function Index() {
                       <br />
                       here
                     </div>
-                    <img className="vector" alt="Vector" src="./src/assets/Vector.svg" />
+                    <img className="vector" alt="Vector" src="./images/Vector.svg" />
                   </div>
                 </div>
                 <p className="p">
@@ -67,7 +67,7 @@ function Index() {
             </div>
           </div>
             <div className="logo-img">
-                <img className="button-6" alt="Button" src="./src/assets/Button.png" />
+                <img className="button-6" alt="Button" src="./images/Button.png" />
             </div>
           
         </div>
@@ -84,7 +84,7 @@ function Index() {
             <img
               className="element-swiftfiat-iphone"
               alt="Element swiftfiat iphone"
-              src="./src/assets/iphone12.png"
+              src="./images/iphone12.png"
             />
           </div>
         </div>
@@ -95,7 +95,7 @@ function Index() {
               <div className="frame-6">
                 <div className="frame-7">
                   <div className="mail-img">
-                  <img className="img-2" alt="Icon" src="./src/assets/mail.svg" />
+                  <img className="img-2" alt="Icon" src="./images/mail.svg" />
                   </div>
                   <div className="frame-8">
                     <p className="join-the-speedsters">
@@ -202,7 +202,7 @@ function Index() {
             <div className="text-input-2">
               <div className="text-wrapper-6">&copy; 2024 Swift</div>
               <div className="social-icon">
-                <img src="./src/assets/socialicon.svg" alt="social-icons" />
+                <img src="./images/socialicon.svg" alt="social-icons" />
               </div>
             
             </div>
@@ -227,7 +227,7 @@ function Index() {
                 <div className="heading-and-wrapper">
                   <div className="heading-and-3">
                     <div className="head-bank">
-                      <img className="img-2" alt="Icon" src="./src/assets/bank.svg" />
+                      <img className="img-2" alt="Icon" src="./images/bank.svg" />
                     </div>
                     <p className="heading-2">Sell your Giftcards for Naira</p>
                     <p className="supporting-text-2">
@@ -238,8 +238,8 @@ function Index() {
                 </div>
                 {/* <img className="american-express" alt="American express" src="./src/assets/american.png" /> */}
                 <div className="overlap-group-4">
-                  <img className="amazon" alt="Amazon" src="./src/assets/Amazon.png" />
-                  <img className="itunes" alt="Itunes" src="./src/assets/Itunes.png" />
+                  <img className="amazon" alt="Amazon" src="./images/Amazon.png" />
+                  <img className="itunes" alt="Itunes" src="./images/ITunes.png" />
                 </div>
               </div>
 
@@ -247,7 +247,7 @@ function Index() {
                 <div className="overlap-5">
                   <div className="heading-and-4">
                     <div className="head-bank">
-                      <img className="img-2" alt="Icon" src="./src/assets/bank-note.svg" />
+                      <img className="img-2" alt="Icon" src="./images/bank-note.svg" />
                     </div>
                     <p className="heading-3">Crypto assets to USD at&nbsp;&nbsp;the bestrate in markets</p>
                     <p className="supporting-text-3">
@@ -258,7 +258,7 @@ function Index() {
                   <img
                     className="swiftfiat-iphone"
                     alt="Swiftfiat iphone"
-                    src="./src/assets/swiftphone.png"
+                    src="./images/swiftphone.png"
                   />
                 </div>
               </div>
@@ -266,26 +266,26 @@ function Index() {
             <div className="frame-12">
               <div className="heading-and-5">
               <div className="head-bank">
-                <img className="img-2" alt="Icon" src="./src/assets/credit-card-up.svg" />
+                <img className="img-2" alt="Icon" src="./images/credit-card-up.svg" />
               </div>
                 <div className="heading-3">Pay Bills Anywhere,Anytime</div>
                 <p className="supporting-text-4">Experience the swiftest and most secure bill payment solution</p>
               </div>
               <div className="overlap-6">
-                <img className="MTN" alt="Mtn" src="./src/assets/MTN 1.png" />
+                <img className="MTN" alt="Mtn" src="./images/MTN 1.png" />
                 <div className="overlap-group-5">
-                  <img className="DSTV" alt="Dstv" src="./src/assets/DSTV 1.png" />
-                  <img className="GLO" alt="Glo" src="./src/assets/GLO 1.png" />
+                  <img className="DSTV" alt="Dstv" src="./images/DSTV 1.png" />
+                  <img className="GLO" alt="Glo" src="./images/GLO 1.png" />
                 </div>
-                <img className="element" alt="Element" src="./src/assets/9 mobile1 1.png" />
-                <img className="AIRTEL" alt="Airtel" src="./src/assets/AIRTEL 1.png" />
+                <img className="element" alt="Element" src="./images/9 MOBILE1 1.png" />
+                <img className="AIRTEL" alt="Airtel" src="./images/AIRTEL 1.png" />
               </div>
             </div>
 
             <div className="frame-13">
               <div className="overlap-7">
                 <div className="services-area">
-                  <img className="map" alt="Map" src="./src/assets/map 1.png" />
+                  <img className="map" alt="Map" src="./images/map 1.png" />
                 </div>
                 <div className="heading-4">
                   International/ Offshore <br />
@@ -306,9 +306,9 @@ function Index() {
                 <br />
                 for Better Payments
               </p>
-              <img className="mask-group-2" alt="Mask group" src="./src/assets/mask group.svg" />
+              <img className="mask-group-2" alt="Mask group" src="./images/Mask group.svg" />
               <div className="component-68">
-                <img className="component-img" src="./src/assets/component 68.png" alt="comp 68" />
+                <img className="component-img" src="./images/Component 68.png" alt="comp 68" />
               </div>
         
             </div>
@@ -327,7 +327,7 @@ function Index() {
             <div className="group-4">
               <div className="descriptions">
                 <div className="group-5">
-                  <img className="view" alt="View" src="./src/assets/view.svg" />
+                  <img className="view" alt="View" src="./images/view.svg" />
                   <div className="span">
                     <p className="term-visualize-as">
                       <span className="text-wrapper-9">All in one app</span>
@@ -341,7 +341,7 @@ function Index() {
                 </div>
               </div>
               <div className="group-6">
-                <img className="img-3" alt="Settings" src="./src/assets/settings.svg" />
+                <img className="img-3" alt="Settings" src="./images/settings.svg" />
                 <p className="descriptions-term">
                   <span className="text-wrapper-13">Innovative and User friendly</span>
                   <span className="text-wrapper-14">.</span>
@@ -352,7 +352,7 @@ function Index() {
                 </p>
               </div>
               <div className="group-7">
-                <img className="img-3" alt="Cloud download" src="./src/assets/cloud.svg" />
+                <img className="img-3" alt="Cloud download" src="./images/cloud.svg" />
                 <p className="descriptions-term">
                   <span className="text-wrapper-13">Real-time updates</span>
                   <span className="text-wrapper-14">.</span>
@@ -366,7 +366,7 @@ function Index() {
             </div>
           </div>
           <div className="sdk-webp">
-            <img className="swiftfiat-mockup-png" alt="Swiftfiat mockup png" src="./src/assets/swiftfiat mockup.png" />
+            <img className="swiftfiat-mockup-png" alt="Swiftfiat mockup png" src="./images/swiftfiat mockup.png" />
           </div>
         </div>
 
