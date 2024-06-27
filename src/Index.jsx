@@ -272,6 +272,7 @@ function Index() {
                 <p className="supporting-text-4">Experience the swiftest and most secure bill payment solution</p>
               </div>
               <div className="overlap-6">
+                <img  src="./images/double-phone.png" alt="doublePhone"  />
                 <img className="MTN" alt="Mtn" src="./images/MTN 1.png" />
                 <div className="overlap-group-5">
                   <img className="DSTV" alt="Dstv" src="./images/DSTV 1.png" />
