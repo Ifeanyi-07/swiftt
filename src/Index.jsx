@@ -1,4 +1,84 @@
+import { useEffect, useState  } from "react";
+
 function Index() {
+
+  function navSlide() {
+    const burger = document.querySelector(".burger");
+    const nav = document.querySelector(".horizontal-container-3");
+    const navLinks = document.querySelectorAll(".text-wrapper");
+    const btn= document.querySelector(".button-4")
+
+    nav.classList.toggle("nav-active")
+
+    btn.classList.toggle("btn-active")
+
+    navLinks.forEach((link, index)=>{
+            if(link.style.animation){
+              link.style.animation= ""
+            }
+            else{
+              link.style.animation = `navLinkFade 0.5s ease-in ${index / 7 + 1}s`
+            }
+          })
+    
+    
+          burger.classList.toggle("togg")
+          
+
+    
+
+
+  }
+ 
+
+
+
+  // useEffect(()=>{
+
+  //   const navSlide= ()=>{
+  //     const burger = document.querySelector(".burger");
+  //     const nav = document.querySelector(".horizontal-container-3");
+  //     const navLinks = document.querySelectorAll(".text-wrapper");
+
+
+  //   burger.addEventListener('click', ()=>{
+  //     nav.classList.toggle("nav-active")
+
+
+  //      navLinks.forEach((link, index)=>{
+  //       if(link.style.animation){
+  //         link.style.animation= ""
+  //       }
+  //       else{
+  //         link.style.animation = `navLinkFade 0.5s ease forward ${index / 7 + 1}s`
+  //       }
+  //     })
+
+
+  //     burger.classList.toggle("togg")
+
+
+
+
+       
+
+       
+  //   })
+
+
+  //   }
+
+
+  //   navSlide();
+  // })
+
+   // window.addEventListener("onload", navSlide);
+   // return() => window.removeEventListener("onload", navSlide);
+
+  
+  
+
+
 
     return(
         <>
@@ -11,11 +91,15 @@ function Index() {
           
           <div className="horizontal-container">
             <div className="horizontal-container-2">
+            <div className="button">
+                  <img className="img-2" alt="Text" src="./images/newHeadLogo.svg" />
+                </div>
       
               <div className="horizontal-container-3">
-                <div className="button">
+                {/* <div className="button">
                   <img className="img-2" alt="Text" src="./images/Component 1.png" />
-                </div>
+                </div> */}
+                
                 <button className="button-2">
                   <div className="text-wrapper">Home</div>
                 </button>
@@ -28,9 +112,20 @@ function Index() {
                 <button className="button-3">
                   <div className="text-wrapper">FAQs</div>
                 </button>
+
+                {/* <div className="burger">
+                    <div className="line1"></div>
+                    <div className="line2"></div>
+                    <div className="line3"></div>
+                </div> */}
                 
               </div>
             </div>
+            <div className="burger" onClick={navSlide}>
+                    <div className="line1"></div>
+                    <div className="line2"></div>
+                    <div className="line3"></div>
+                </div>
 
             <button className="button-4">
               <button className="button-2">
@@ -95,7 +190,7 @@ function Index() {
               <div className="frame-6">
                 <div className="frame-7">
                   <div className="mail-img">
-                  <img className="img-2" alt="Icon" src="./images/mail.svg" />
+                    <img className="img-2" alt="Icon" src="./images/mail.svg" />
                   </div>
                   <div className="frame-8">
                     <p className="join-the-speedsters">
@@ -122,12 +217,15 @@ function Index() {
                   </div>
                 </div>
               </div>
+
               <div className="horizontal-container-wrapper">
                 <div className="horizontal-container-4">
                   <div className="text-input-container">
                     <div className="component-2">
                       <div className="heading-START-wrapper">
-                        <div className="heading-START">SWIFT</div>
+                        <div className="heading-START">
+                          <img src="./images/newFootLogo.svg" alt="footerPix" />
+                        </div>
                       </div>
                     </div>
                     <div className="an-innovative-wrapper">
@@ -200,7 +298,7 @@ function Index() {
               </div>
             </div>
             <div className="text-input-2">
-              <div className="text-wrapper-6">&copy; 2024 Swift</div>
+              <div className="text-wrapper-6">&copy; 2024 Swiftfiat</div>
               <div className="social-icon">
                 <img src="./images/socialicon.svg" alt="social-icons" />
               </div>
@@ -222,6 +320,7 @@ function Index() {
                 </div>
               </div>
             </div>
+
             <div className="frame-10">
               <div className="frame-11">
                 <div className="heading-and-wrapper">
@@ -263,16 +362,17 @@ function Index() {
                 </div>
               </div>
             </div>
+
             <div className="frame-12">
               <div className="heading-and-5">
-              <div className="head-bank">
-                <img className="img-2" alt="Icon" src="./images/credit-card-up.svg" />
-              </div>
+                <div className="head-bank">
+                  <img className="img-2" alt="Icon" src="./images/credit-card-up.svg" />
+                </div>
                 <div className="heading-3">Pay Bills Anywhere,Anytime</div>
                 <p className="supporting-text-4">Experience the swiftest and most secure bill payment solution</p>
               </div>
               <div className="overlap-6">
-                <img  src="./images/double-phone.png" alt="doublePhone"  />
+                <img  className= "doublePhone"  src="./images/double-phone.png" alt="doublePhone"  />
                 <img className="MTN" alt="Mtn" src="./images/MTN 1.png" />
                 <div className="overlap-group-5">
                   <img className="DSTV" alt="Dstv" src="./images/DSTV 1.png" />
@@ -432,13 +532,38 @@ function Index() {
             </div> 
 
             
-              <img className="mask-group-3" alt="Mask group" src="./images/Mask group.png" />
+              {/* <img className="mask-group-3" alt="Mask group" src="./images/Mask group.png" /> */}
             
             <div className="carousel">
               <img className="component-66" src="./images/Component 66.svg" alt="component66" />
               <img className="component-67" src="./images/Component 67.svg" alt="component67" />
             </div>
           </div>
+
+          <div className="group-11a">
+                <div className="overlap-group-6">
+                  <p className="easily-traded-my">
+                    Easily traded my giftcards with SwiftFiat <br />
+                    at the best rate with no transaction fee
+                  </p>
+                  <div className="overlap-group-7">
+                    <div className="group-10">
+                    <div className="component-29">
+                    <img src="./images/Component-29.svg" alt="component 29" />
+                  </div>
+                      <div className="ashley-cooper">Oluwakayode Ajibola</div>
+                    </div>
+                    <div className="avatar-user-pic">
+                      <img className="avatar-user-pic-2" alt="Avatar user pic" src="./images/Pic.svg" />
+                    </div>
+                  </div>
+                  <div className="inverted-comma">
+                    <img className="inverted-comma-2" alt="Inverted comma" src="./images/inverted comma 1.png" />
+                    <img className="inverted-comma-3" alt="Inverted comma" src="./images/inverted comma 2.png" />
+                  </div>
+                </div>
+              </div>
+
         </div>
       </div>
 </div>
