@@ -43,10 +43,10 @@ function Contact(){
                                     <textarea className="t-area" id="area-id" placeholder="Write your message..."/>
                                     {/* <input type="text" placeholder="Write your message..." /> */}
                                 </div>
-                                <div className="condiv-32">
+                                <button className="condiv-32">
                                     <div className="condiv-33">Submit</div>
                                     <img className="conimg-2" src="./conImages/Icon.svg" alt="arrow" />
-                                </div>
+                                </button>
                             </div>
                         </div>
                         <div className="concolumn-4">

@@ -31,7 +31,7 @@ function Footer() {
                             <div className="div-82">
                                 <input type="email" placeholder="Enter email...." />
                             </div>
-                            <div className="div-83">Submit</div>
+                            <button className="div-83">Submit</button>
                         </div>
                     </div>
                 </div>

@@ -1,31 +1,110 @@
+// import { Link } from "react-router-dom";
 
 function Header() {
+
+
+    function navSlide() {
+        const burger = document.querySelector(".burger");
+        const nav = document.querySelector(".horizontal-container-33");
+        const navLinks = document.querySelectorAll(".div-6 li");
+        // const btn= document.querySelector(".button-4")
+    
+        nav.classList.toggle("nav-active")
+        // navLinks.classList.add("btn-active")
+    
+        // btn.classList.toggle("btn-active")
+    
+        navLinks.forEach((link, index)=>{
+                if(link.style.animation){
+                  link.style.animation= ""
+                }
+                else{
+                  link.style.animation = `navLinkFade 0.5s ease-in ${index / 7 + 1}s`
+                }
+              })
+        
+        
+              burger.classList.toggle("togg")
+              
+    
+        
+    
+    
+      }
+
+
 
     return(
 
         <>
 
-<div className="div-3">
+        <div className="div-3">
             <div className="div-4">
                 <div className="div-5">
                     <img className="imgg" src="./images/newHeadLogo.svg" alt="headlogo" />
 
-                        <div className="div-6">
-                            <div className="div-7">Home</div>
+                        <ul className="div-6" id="uldiv">
+
+    
+                        
+                            <li className="div-7"><a href="/">Home</a></li>
+                            <li className="div-8"><a href="/about">About</a></li>
+                            <li className="div-9"><a href="/contact">Contact</a></li>
+                            <li className="div-10"><a href="/faqs">FAQS</a></li>
+
+
+                                {/* <div className="burger">
+                                 <div className="line1"></div>
+                                 <div className="line2"></div>
+                                 <div className="line3"></div>
+                                </div> */}
+                        
+                            {/* <div className="div-7">Home</div>
                             <div className="div-8">About</div>
                             <div className="div-9">Contact</div>
-                            <div className="div-10">FAQS</div>
+                            <div className="div-10">FAQS</div> */}
+                        </ul>
+
+                        <div className="burger" onClick={navSlide}>
+                            <div className="line1"></div>
+                            <div className="line2"></div>
+                            <div className="line3"></div>
                         </div>
+                        
                 </div>
 
-                    <div className="div-11">
+                    <div className="div-11" id="btndiv">
                         <div className="div-12">Get Started</div>
-                        <div className="div-13">Get started</div>
+                        <button className="div-13">Get started</button>
 
                     </div>
 
             </div>
+            
         </div>
+
+        <div className="horizontal-container-33">
+
+            <ul className="div-6" id="res-ul">
+
+        
+                            
+                <li className="div-7" id="h-btn"><a href="/">Home</a></li>
+                <li className="div-8" id="a-btn"><a href="/about">About</a></li>
+                <li className="div-9" id="c-btn"><a href="/contact">Contact</a></li>
+                <li className="div-10" id="f-btn"><a href="/faqs">FAQS</a></li>
+
+            </ul>
+
+            <div className="div-11" id="nav-btn">
+                <div className="div-12">Get Started</div>
+                <button className="div-13" id="btn-btn"><span id="txt-btn">Get started</span></button>
+
+            </div>
+
+        </div>
+
+        
         
         </>
 

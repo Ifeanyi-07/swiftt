@@ -3,9 +3,12 @@ import Index from "./Index"
 import Body from "./Body"
 import Contact from "./Contact"
 import Faq from "./Faq"
-import Indexzz from "./Indexzz"
+// import Indexzz from "./Indexzz"
+import Error from "./Error"
 
 import Footer from "./Footer"
+
+import { BrowserRouter, Routes, Route} from "react-router-dom"
 
 
 
@@ -15,9 +18,23 @@ function App() {
   return(
     <>
 
+    <BrowserRouter>
+
     <Header/>
 
-    <Index/>
+    
+
+    <Routes>
+
+      {/* <Route index element= {<Index/>} /> */}
+      <Route path="/" element= {<Index />} />
+      <Route path="/about" element= {<Body />} />
+      <Route path="/contact" element= {<Contact />} />
+      <Route path="/faqs" element= {<Faq />} />
+      <Route path="*" element= {<Error />} />
+
+
+    {/* <Index/> */}
     {/* <Indexzz/> */}
 
     {/* <Body/> */}
@@ -25,10 +42,18 @@ function App() {
     {/* <Contact/> */}
 
     {/* <Faq/> */}
+    {/* <Error/> */}
+
+    </Routes>
+
+
+    
 
 
 
     <Footer/>
+
+    </BrowserRouter>
 
     
 
