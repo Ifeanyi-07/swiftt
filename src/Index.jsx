@@ -110,14 +110,14 @@ function Index() {
                              <img
                                 className="indimg-4"
                                 alt="Element swiftfiat iphone"
-                                src=".//public/images/newhomepagephone.svg"
+                                src="/images/newhomepagephone.svg"
                             />
 
                             {/* the phone for the mobile view */}
                             <img
                                 className="resindimg-4"
                                 alt="Element swiftfiat iphone"
-                                src=".//public/images/resphone.svg"
+                                src="/images/resphone.svg"
                             />
 
                         </div>
