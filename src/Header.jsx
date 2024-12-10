@@ -42,6 +42,8 @@ function Header() {
             <div className="div-4">
                 <div className="div-5">
                     <img className="imgg" src="./images/newHeadLogo.svg" alt="headlogo" />
+                    {/* for the responsive view */}
+                    <img className="imgg" id="res-nav" src=".//public/images/resnav2.svg" alt="headlogo" />
 
                         <ul className="div-6" id="uldiv">
 
@@ -64,6 +66,7 @@ function Header() {
                             <div className="div-9">Contact</div>
                             <div className="div-10">FAQS</div> */}
                         </ul>
+                        
 
                         <div className="burger" onClick={navSlide}>
                             <div className="line1"></div>
@@ -71,13 +74,18 @@ function Header() {
                             <div className="line3"></div>
                         </div>
                         
+                        
                 </div>
+                
 
-                    <div className="div-11" id="btndiv">
-                        <div className="div-12">Get Started</div>
-                        <button className="div-13">Get started</button>
+                <div className="div-11" id="btndiv">
+                    <div className="div-12">Get Started</div>
+                    <button className="div-13">Get started</button>
+                    {/* the responsive view login button */}
+                    {/* <button className="div-13" id="res-btnz">Login</button> */}
 
-                    </div>
+                </div>
+                <button className="div-13" id="res-btnz">Login</button>
 
             </div>
             
@@ -89,10 +97,10 @@ function Header() {
 
         
                             
-                <li className="div-7" id="h-btn"><a href="/">Home</a></li>
-                <li className="div-8" id="a-btn"><a href="/about">About</a></li>
-                <li className="div-9" id="c-btn"><a href="/contact">Contact</a></li>
-                <li className="div-10" id="f-btn"><a href="/faqs">FAQS</a></li>
+                <li className="div-7" id="h-btn"><a href="/">Home</a> <hr /> </li>
+                <li className="div-8" id="a-btn"><a href="/about">About</a> <hr /></li>
+                <li className="div-9" id="c-btn"><a href="/contact">Contact</a> <hr /></li>
+                <li className="div-10" id="f-btn"><a href="/faqs">FAQS</a><hr /></li>
 
             </ul>
 

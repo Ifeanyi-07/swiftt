@@ -37,6 +37,9 @@ function Footer() {
                 </div>
             </div>
         </div>
+
+        <img className="imgg-15" id="imgg15" src=".//public/images/socialicon.svg" alt="socials" />
+        
         <div className="div-84">
             <div className="div-85">
                 <img className="imgg-14" src="./images/newFootLogo.svg" alt="footlogo" />
@@ -45,30 +48,61 @@ function Footer() {
                     in financial technology solutions. 
                 </div>
             </div>
-            <div className="div-87">
+            <ul className="div-87">
+                <div className="div-88">Company</div>
+                <div className="p-div">
+                    <li className="div-89"><a href="/about">About Us</a></li>
+                    <li className="div-90"><a href="/contact">Contact</a></li>
+                    <li className="div-91"><a href="#">Blog</a></li>
+                    <li className="div-92"><a href="/faqs">FAQS</a></li>
+                </div>
+            </ul>
+            {/* <div className="div-87">
                 <div className="div-88">Company</div>
                 <div className="div-89">About Us</div>
                 <div className="div-90">Contact</div>
                 <div className="div-91">Blog</div>
                 <div className="div-92">FAQS</div>
-            </div>
-            <div className="div-93">
+            </div> */}
+
+
+            <ul className="div-93">
+                <div className="div-94">Products</div>
+                <div className="p-div2">
+                    <li className="div-95"><a href="#">Bill Payments</a></li>
+                    <li className="div-96"><a href="#">Giftcards</a></li>
+                    <li className="div-97"><a href="#">Trading</a></li>
+                    <li className="div-98"><a href="#">Withdrawal</a></li>
+                </div>
+            </ul>
+            {/* <div className="div-93">
                 <div className="div-94">Products</div>
                 <div className="div-95">Bill Payments</div>
                 <div className="div-96">Giftcards</div>
                 <div className="div-97">Trading</div>
                 <div className="div-98">Withdrawal</div>
-            </div>
-            <div className="div-99">
+            </div> */}
+
+            <ul className="div-99">
+                <div className="div-100">Legal</div>
+                <div className="p-div3">
+                    <li className="div-101"><a href="#">Terms & Condition</a></li>
+                    <li className="div-102"><a href="#">Privacy Policy</a></li>
+                    <li className="div-103"><a href="#">Cookie Policy</a></li>
+                </div>
+            </ul>
+
+
+            {/* <div className="div-99">
                 <div className="div-100">Legal</div>
                 <div className="div-101">Terms & Condition</div>
                 <div className="div-102">Privacy Policy</div>
                 <div className="div-103">Cookie Policy</div>
-            </div>
+            </div> */}
         </div>
         <div className="div-104">
             <div className="div-105">&copy; 2024 Swiftfiat</div>
-            <img className="imgg-15" src="./images/socialicon.svg" alt="socials" />
+            <img className="imgg-15" src=".//public/images/socialicon.svg" alt="socials" />
         </div>
     </div>
 

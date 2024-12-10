@@ -70,18 +70,21 @@ function Contact(){
                         </div>
                     </div>
                 </div>
-                <div className="div-55">
+                <div className="div-55" id="contdiv-55">
                     <div className="div-56">
                         <div className="div-57">
                             Ready to Get Started <br/>for Better Payments
                         </div>
                         <img className="maskk" alt="Mask group" src="./images/Mask group.svg" />
-                        <img className="imgg-8" src="./images/Component 68.png" alt="comp" />
+                        {/* <img className="imgg-8" src="./images/Component 68.png" alt="comp" /> */}
+                        <button id="newbtnn">
+                            <img className="indimg-233" id="id-indimg" src="./images/newbtn.png" alt="applogo" />
+                        </button>
                     </div>
                 </div>
 
-                <div className="div-58">
-                    <div className="div-59">
+                <div className="div-58" id="contactdiv58">
+                    <div className="div-59" id="contactdiv59">
                         <div className="column-8">
                             <div className="div-60">
                                 <div className="div-61">SWIFT WAYYYYYYY</div>
@@ -119,6 +122,13 @@ function Contact(){
                                             self-hosted.</span>
                                         </div>
                                     </div>
+                                     {/* the button after the "features" in the mobile view */}
+                                     <button className="inddiv-21" id="inddiv21">
+                                            <img className="indimg-2" id="indimg2" src="./abtImages/Logo (2).svg" alt="applogo" />
+                                        </button>
+                                        <button className="inddiv-22" id="inddiv22">
+                                            <img className="indimg-3" id="indimg3" src="./abtImages/Logo (3).svg" alt="applogo" />
+                                        </button>
                                 
                                 </div>
                                 
@@ -127,6 +137,9 @@ function Contact(){
                         <div className="column-9">
                             <div className="div-71">
                                 <img className="imgg-12" src="./images/swiftfiat mockup.png" alt="swiftphone" />
+
+                                 {/* mobile view phone */}
+                                 <img className="resimgg-12" id="contactresimgg-12" src=".//public/images/resmobile.svg" alt="swiftphone" />
                             </div>
                         </div>
                     </div>

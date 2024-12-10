@@ -1,4 +1,61 @@
+import { useState } from "react";
+
 function Index() {
+
+    // function imageSlide() {
+
+    //     const column1 = document.querySelector(".indcolumn-9");
+    //     const column2 = document.querySelector(".indcolumn-10");
+    //     const column3 = document.querySelector(".indcolumn-11");
+
+
+    // }
+
+    // To track the image's movement
+    const [movedLeft, setMovedLeft] = useState(false);
+
+    // function to move the images left
+
+   const moveLeft = () =>{
+    if (!movedLeft) {
+        const column1 = document.querySelector(".indcolumn-9");
+        const column2 = document.querySelector(".indcolumn-10");
+        const column3 = document.querySelector(".indcolumn-11");
+
+        column1.style.transform = "translateX(-250px)";
+        column2.style.transform = "translateX(-250px)";
+        column3.style.transform = "translateX(-250px)";
+
+        // update state to indicate the image has moved left
+        setMovedLeft(true);   
+    }
+   };
+
+//    function to move the image right
+
+   const moveRight = () =>{
+    if (movedLeft) {
+        const column1 = document.querySelector(".indcolumn-9");
+        const column2 = document.querySelector(".indcolumn-10");
+        const column3 = document.querySelector(".indcolumn-11");
+
+        column1.style.transform= "translateX(0)";
+        column2.style.transform= "translateX(0)";
+        column3.style.transform= "translateX(0)";
+
+        // reset state to indicate the image is back to its original position
+
+        setMovedLeft(false);
+
+    }
+   }
+
+
+//    for the "download" button that takes you to playstore or app store
+
+// function to detect the user's device and redirect
+
+
     return(
         <>
             <div className="inddiv">
@@ -25,26 +82,44 @@ function Index() {
                                     </div>
                                 </div>
                                 <div className="inddiv-20">
-                                    <div className="inddiv-21">
+                                    <button id="newbtn">
+                                        <img className="indimg-2" src="./images/newbtn.png" alt="applogo" />
+                                    </button>
+
+                                    {/* button to not be displayed on the main view but to be displayed on the mobile view */}
+                                    <button className="inddiv-21">
                                         <img className="indimg-2" src="./abtImages/Logo (2).svg" alt="applogo" />
-                                    </div>
-                                    <div className="inddiv-22">
+                                    </button>
+                                    <button className="inddiv-22">
                                         <img className="indimg-3" src="./abtImages/Logo (3).svg" alt="applogo" />
-                                    </div>
+                                    </button>
                                 </div>
                             </div>
                         </div>
                         <div className="indcolumn-2">
-                            <div className="overlap-group-3">
+                            {/* <div className="overlap-group-3">
                                 <div className="ellipse" />
                                 <div className="ellipse-2" />
                                 <div className="ellipse-3" />
-                            </div>
-                            <img
+                            </div> */}
+                            {/* <img
                                 className="indimg-4"
                                 alt="Element swiftfiat iphone"
                                 src="./images/iphone12.png"
+                            /> */}
+                             <img
+                                className="indimg-4"
+                                alt="Element swiftfiat iphone"
+                                src=".//public/images/newhomepagephone.svg"
                             />
+
+                            {/* the phone for the mobile view */}
+                            <img
+                                className="resindimg-4"
+                                alt="Element swiftfiat iphone"
+                                src=".//public/images/resphone.svg"
+                            />
+
                         </div>
                     </div>
                 </div>
@@ -92,6 +167,8 @@ function Index() {
                                     {/* </div> */}
                                 </div>
                             </div>
+                            <hr id="res-line1"/>
+
                             <div className="indcolumn-4">
                                 <div className="inddiv-39">
                                     <div className="inddiv-40">
@@ -116,7 +193,10 @@ function Index() {
                                 </div>
                             </div>
                         </div>
+                        <hr id="res-line2"/>
                     </div>
+                    
+
                     <div className="inddiv-44">
                         <div className="inddiv-45">
                             <div className="indcolumn-5">
@@ -154,17 +234,20 @@ function Index() {
                             </div>
                         </div>
                     </div>
-                    <div className="div-55">
+                    <div className="div-55" id="indxdiv-55">
                         <div className="div-56">
                             <div className="div-57">
                                 Ready to Get Started <br/>for Better Payments
                             </div>
                             <img className="maskk" alt="Mask group" src="./images/Mask group.svg" />
-                            <img className="imgg-8" src="./images/Component 68.png" alt="comp" />
+                            {/* <img className="imgg-8" src="./images/Component 68.png" alt="comp" /> */}
+                            <button id="newbtnn">
+                                <img className="indimg-233" id="id-indimg" src="./images/newbtn.png" alt="applogo" />
+                            </button>
                         </div>
                     </div>
 
-                    <div className="div-58">
+                    <div className="div-58" id="indxdiv-58">
                         <div className="div-59">
                             <div className="column-8">
                                 <div className="div-60">
@@ -187,7 +270,7 @@ function Index() {
                                         <div className="div-67">
                                             <img className="imgg-10" src="./images/settings.svg" alt="setting" />
                                             <div className="div-68">
-                                                <span id="all">Innovative and User friendly</span>
+                                                <span id="all" className="innovativeall">Innovative and User friendly</span>
                                                 <span id="dot"> .</span>
                                                 <span id="one"> Define unique issue states for each team, and extend
                                                 them the way you like.</span>
@@ -196,13 +279,20 @@ function Index() {
                                         <div className="div-69">
                                             <img className="imgg-11" src="./images/cloud.svg" alt="cloud" />
                                             <div className="div-70">
-                                                <span id="all"> Real-time updates</span>
+                                                <span id="all" className="realall"> Real-time updates</span>
                                                 <span id="dot"> .</span>
                                                 <span id="one">  Import issues from your existing issue tracker into
                                                 Plane in just couple of minutes. Coming soon for
                                                 self-hosted.</span>
                                             </div>
                                         </div>
+                                        {/* the button after the "features" in the mobile view */}
+                                        <button className="inddiv-21" id="inddiv21">
+                                            <img className="indimg-2" id="indimg2" src="./abtImages/Logo (2).svg" alt="applogo" />
+                                        </button>
+                                        <button className="inddiv-22" id="inddiv22">
+                                            <img className="indimg-3" id="indimg3" src="./abtImages/Logo (3).svg" alt="applogo" />
+                                        </button>
                                     
                                     </div>
                                     
@@ -211,10 +301,14 @@ function Index() {
                             <div className="column-9">
                                 <div className="div-71">
                                     <img className="imgg-12" src="./images/swiftfiat mockup.png" alt="swiftphone" />
+
+                                    {/* mobile view phone */}
+                                    <img className="resimgg-12" src=".//public/images/resmobile.svg" alt="swiftphone" />
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
                     <div className="inddiv-74">
                         <div className="inddiv-75">
                             <div className="inddiv-76">Testimonials</div>
@@ -290,18 +384,44 @@ function Index() {
                                                     <img className="indimg-26" src="./images/Component-29.svg" alt="img-26" />
                                                 </div>
                                             </div>
+                                            <div className="indimg-190">
+                                                <img className="inverted-comma-22" alt="Inverted comma" src="./images/inverted comma 1.png" />
+                                                <img className="inverted-comma-33" alt="Inverted comma" src="./images/inverted comma 2.png" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             {/* <img className="indimg-27" src="" alt="img-27" /> */}
                             <div className="indimg-27">
-                                <img className="component-671" src="./images/Component 67.svg" alt="component67" />
-                                <img className="component-661" src="./images/Component 66.svg" alt="component66" />
+                                <button className="btn-arr1" onClick={moveLeft}>
+                                    <img className="component-671" src="./images/Component 67.svg" alt="component67" />
+                                </button>
+                                <button className="btn-arr2" onClick={moveRight}>
+                                    <img className="component-661" src="./images/Component 66.svg" alt="component66" />
+                                </button>
+                                {/* <img className="component-671" src="./images/Component 67.svg" alt="component67" /> */}
+                                {/* <img className="component-661" src="./images/Component 66.svg" alt="component66" /> */}
                                 
                             </div>
+                           
+                          
+                        </div>
+                         {/* the button for the mobile view */}
+
+                        <div className="indimg-27" id="indimg27">
+                            <button className="btn-arr1" id="arr1">
+                                <img className="component-671" src="./images/Component 67.svg" alt="component67" />
+                            </button>
+                            <button className="btn-arr2" id="arr2">
+                                <img className="component-661" src="./images/Component 66.svg" alt="component66" />
+                            </button>
+                                {/* <img className="component-671" src="./images/Component 67.svg" alt="component67" /> */}
+                                {/* <img className="component-661" src="./images/Component 66.svg" alt="component66" /> */}
+                                
                         </div>
                     </div>
+                    
 
 
                 </div>

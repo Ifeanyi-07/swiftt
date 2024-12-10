@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 // import './Responsive.css'
+import './Header.jsx'
+import './Index.jsx'
+import './Body.jsx'
+import './Contact.jsx'
+import './Faq.jsx'
+import './Error.jsx'
+import './Footer.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

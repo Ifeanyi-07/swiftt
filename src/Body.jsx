@@ -1,4 +1,6 @@
+
 function Body(){
+    
 
     return(
         <>
@@ -11,6 +13,11 @@ function Body(){
                 The Future of <br />
                 Digital Finance
             </div>
+            {/* for the mobile view */}
+            <div className="div-16" id="div-16">
+                The Future of Digital Finance
+            </div>
+            
             <div className="div-17">
                 SwiftFiat is not just a financial service company, It's an
                 alliance. The synergy between our knowledgeable team and engaged
@@ -113,11 +120,15 @@ function Body(){
         <div className="div-47">
             <div className="div-48">
                 <div className="column-6">
-                    <div className="div-49"/>
+                    {/* <div className="div-49"/> */}
+                    <img id="team-frame" src=".//public/abtImages/teamframe.png" alt="frame" />
+                    {/* <img className="team-img" src=".//public/abtImages/teamimg1.png" alt="john D" />
+                    <img className="team-img1" src=".//public/abtImages/teamimg1.png" alt="head D" />
+                    <img className="team-img2" src=".//public/abtImages/teamimg1.png" alt="john D" /> */}
                 </div>
-                <div className="column-7">
+                {/* <div className="column-7">
                     <div className="div-50"/>
-                </div>
+                </div> */}
             </div>
         </div>
 
@@ -128,21 +139,32 @@ function Body(){
             what you think. <br/>You also get tips, updates and exclusive invites
             before anyone else.
         </div>
-        <button className="div-54">Join Us</button> 
+        <a href="https://wa.me/+2349131633208" target="_blank" rel="noopener noreferrer"><button className="div-54" id="div543">Join Us</button> </a>
+        <button className="div-54" id="div544">Join Us</button> 
+        <button className="div-54" id="div545">Join Us</button> 
+        
         
     </div>
-    <div className="div-55">
+    
+    <div className="div-55" id="bodydiv-55">
         <div className="div-56">
             <div className="div-57">
                 Ready to Get Started <br/>for Better Payments
             </div>
             <img className="maskk" alt="Mask group" src="./images/Mask group.svg" />
-            <img className="imgg-8" src="./images/Component 68.png" alt="comp" />
+            {/* <img className="imgg-8" src="./images/Component 68.png" alt="comp" /> */}
+            <button id="newbtnn">
+                <img className="indimg-233" id="id-indimg" src="./images/newbtn.png" alt="applogo" />
+            </button>
         </div>
     </div>
+    
 
-    <div className="div-58">
-        <div className="div-59">
+    <div className="div-58" id="div58">
+        
+        
+        <div className="div-59" id="div59">
+            
             <div className="column-8">
                 <div className="div-60">
                     <div className="div-61">SWIFT WAYYYYYYY</div>
@@ -179,23 +201,53 @@ function Body(){
                                 Plane in just couple of minutes. Coming soon for
                                 self-hosted.</span>
                             </div>
+                            
                         </div>
+                         {/* the button after the "features" in the mobile view */}
+                        <button className="inddiv-21" id="inddiv21">
+                            <img className="indimg-2" id="indimg2" src="./abtImages/Logo (2).svg" alt="applogo" />
+                        </button>
+                        <button className="inddiv-22" id="inddiv22">
+                            <img className="indimg-3" id="indimg3" src="./abtImages/Logo (3).svg" alt="applogo" />
+                        </button>
+                        
                        
                     </div>
                     
                 </div>
             </div>
             <div className="column-9">
+                
                 <div className="div-71">
                     <img className="imgg-12" src="./images/swiftfiat mockup.png" alt="swiftphone" />
-                </div>
-            </div>
-        </div>
-    </div>
 
+                    {/* mobile view phone */}
+                    
+                    <img className="resimgg-12" id="bodyresimg12" src=".//public/images/resmobile.svg" alt="swiftphone" />
+
+
+                    {/* <button className="inddiv-21" id="inddiv212" >
+                        <img className="indimg-2" id="indimg2" src="./abtImages/Logo (2).svg" alt="applogo" />
+                    </button>
+                    <button className="inddiv-22" id="inddiv222">
+                        <img className="indimg-3" id="indimg3" src="./abtImages/Logo (3).svg" alt="applogo" />
+                    </button> */}
+                </div>
+                
+                  
+                
+            </div>
+              
+ 
+        </div>
+        
+        
+    </div>
+  
 
     
 </div>
+
 
         </>
     );
