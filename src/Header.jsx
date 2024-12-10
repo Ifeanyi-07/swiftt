@@ -41,9 +41,9 @@ function Header() {
         <div className="div-3">
             <div className="div-4">
                 <div className="div-5">
-                    <img className="imgg" src="./images/newHeadLogo.svg" alt="headlogo" />
+                    <img className="imgg" src=".//images/newHeadLogo.svg" alt="headlogo" />
                     {/* for the responsive view */}
-                    <img className="imgg" id="res-nav" src=".//public/images/resnav2.svg" alt="headlogo" />
+                    <img className="imgg" id="res-nav" src="./images/resnav2.svg" alt="headlogo" />
 
                         <ul className="div-6" id="uldiv">
 
