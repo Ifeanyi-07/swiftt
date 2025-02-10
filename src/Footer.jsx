@@ -104,7 +104,7 @@ function Footer() {
         </div>
         <div className="div-104">
             <div className="div-105">&copy; 2024 Swiftfiat</div>
-            <img className="imgg-15" src=".//public/images/socialicon.svg" alt="socials" />
+            <img className="imgg-15" src="./public/images/socialicon.svg" alt="socials" />
         </div>
     </div>
 
