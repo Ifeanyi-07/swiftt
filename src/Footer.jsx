@@ -40,7 +40,7 @@ function Footer() {
             </div>
         </div>
 
-        <img className="imgg-15" id="imgg15" src=".//public/images/socialicon.svg" alt="socials" />
+        <img className="imgg-15" id="imgg15" src="./images/socialicon.svg" alt="socials" />
 
         <div className="div-84">
             <div className="div-85">
@@ -104,7 +104,7 @@ function Footer() {
         </div>
         <div className="div-104">
             <div className="div-105">&copy; 2024 Swiftfiat</div>
-            <img className="imgg-15" src="./public/images/socialicon.svg" alt="socials" />
+            <img className="imgg-15" src="./images/socialicon.svg" alt="socials" />
         </div>
     </div>
 
