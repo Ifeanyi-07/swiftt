@@ -126,7 +126,7 @@ function Faq() {
 
 
                 <div className="div-58" id="faqdiv58">
-                        <div className="div-59">
+                        <div className="div-59" id="faqdiv59">
                             <div className="column-8">
                                 <div className="div-60">
                                     <div className="div-61">SWIFT WAYYYYYYY</div>

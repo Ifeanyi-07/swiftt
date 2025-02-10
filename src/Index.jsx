@@ -51,6 +51,58 @@ function Index() {
    }
 
 
+
+//    the buttons for the responsive mobile view
+// const disappear = () =>{
+//     const col1= document.getElementById("indcolumn-9");
+//     const col2 = document.getElementById("indcolumn-10");
+//     const col3= document.getElementById("indcolumn-11");
+
+
+//     col1.classList.add("opec")
+    // col2.classList.add("opec")
+
+// }
+
+// const appear = () =>{
+//     const col4= document.getElementById("indcolumn-9");
+//     const col5= document.getElementById("indcolumn-10");
+//     const col6= document.getElementById("indcolumn-11");
+
+//     col4.classList.add("opec-1")
+
+// }
+
+
+    // const [opacityIndex, setOpacityIndex] = useState(0);
+
+    // const handleLeftClick = () => {
+    //     if (opacityIndex ===0){
+    //         setOpacityIndex(1);
+    //     } else if (opacityIndex ===1){
+    //         setOpacityIndex(2);
+    //     }
+    // };
+
+    // const handleRightClick = () =>{
+    //     if (opacityIndex ===2){
+    //         setOpacityIndex(1);
+    //     } else if (opacityIndex ===1){
+    //         setOpacityIndex(0);
+    //     }
+    // }
+
+
+
+   
+   
+
+
+
+   
+
+
+
 //    for the "download" button that takes you to playstore or app store
 
 // function to detect the user's device and redirect
@@ -175,8 +227,12 @@ function Index() {
                                         <div className="inddiv-41">
                                             <img className="indimg-6" alt="Icon" src="./images/bank-note.svg" />
                                         </div>
-                                        <div className="inddiv-42">
+                                        <div className="inddiv-42" id="inddiv42">
                                             Crypto assets to USD at the bestrate in markets
+                                        </div>
+                                        {/* for the mobile view */}
+                                        <div className="inddiv-42" id="inddiv-42">
+                                            Crypto assets to USD at the <br /> bestrate in markets
                                         </div>
                                         <div className="inddiv-43">
                                             Dive into the world of digital currency with ease. Whether
@@ -248,7 +304,7 @@ function Index() {
                     </div>
 
                     <div className="div-58" id="indxdiv-58">
-                        <div className="div-59">
+                        <div className="div-59" id="indxdiv-59">
                             <div className="column-8">
                                 <div className="div-60">
                                     <div className="div-61">SWIFT WAYYYYYYY</div>
@@ -315,7 +371,7 @@ function Index() {
                             <div className="inddiv-77">See what our customers say</div>
                             <div className="inddiv-78">
                                 <div className="inddiv-79">
-                                    <div className="indcolumn-9">
+                                    <div className="indcolumn-9" id="indcolumn-9">
                                         <div className="inddiv-80">
                                             <div className="inddiv-81">
                                                 Easily traded my giftcards with SwiftPay
@@ -341,7 +397,7 @@ function Index() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="indcolumn-10">
+                                    <div className="indcolumn-10" id="indcolumn-10">
                                         <div className="inddiv-87">
                                             <div className="inddiv-88">
                                                 Easily traded my giftcards with SwiftPay
@@ -367,7 +423,7 @@ function Index() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="indcolumn-11">
+                                    <div className="indcolumn-11" id="indcolumn-11">
                                         <div className="inddiv-94">
                                             <div className="inddiv-95">
                                                 Easily traded my giftcards with SwiftPay
@@ -410,12 +466,12 @@ function Index() {
                          {/* the button for the mobile view */}
 
                         <div className="indimg-27" id="indimg27">
-                            <button className="btn-arr1" id="arr1">
+                            {/* <button className="btn-arr1" id="arr1" >
                                 <img className="component-671" src="./images/Component 67.svg" alt="component67" />
                             </button>
-                            <button className="btn-arr2" id="arr2">
+                            <button className="btn-arr2" id="arr2" >
                                 <img className="component-661" src="./images/Component 66.svg" alt="component66" />
-                            </button>
+                            </button> */}
                                 {/* <img className="component-671" src="./images/Component 67.svg" alt="component67" /> */}
                                 {/* <img className="component-661" src="./images/Component 66.svg" alt="component66" /> */}
                                 

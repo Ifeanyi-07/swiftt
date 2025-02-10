@@ -8,7 +8,7 @@ function Contact(){
                 <div className="condiv-15">
                     <div className="condiv-16">
                         <div className="concolumn">
-                            <div className="condiv-17">
+                            <form action="" className="condiv-17">
                                 <div className="condiv-18">Get in touch.</div>
                                 <div className="condiv-19">
                                     Our team would love to hear from you.
@@ -47,7 +47,7 @@ function Contact(){
                                     <div className="condiv-33">Submit</div>
                                     <img className="conimg-2" src="./conImages/Icon.svg" alt="arrow" />
                                 </button>
-                            </div>
+                            </form>
                         </div>
                         <div className="concolumn-4">
                             <div className="condiv-34">
