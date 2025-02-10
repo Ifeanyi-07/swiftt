@@ -12,7 +12,7 @@ import Form from "./Form"
 
 import Footer from "./Footer"
 
-import { BrowserRouter, Routes, Route} from "react-router-dom"
+// import { BrowserRouter, Routes, Route} from "react-router-dom"
 
 
 
@@ -22,36 +22,37 @@ function App() {
   return(
     <>
 
-    <BrowserRouter>
+    {/* <BrowserRouter> */}
 
     <Header/>
 
     
 
-    <Routes>
+    {/* <Routes> */}
 
       {/* <Route index element= {<Index/>} /> */}
-      <Route path="/" element= {<Index />} />
-      <Route path="about" element= {<Body />} />
-      <Route path="contact" element= {<Contact />} />
-      <Route path="faqs" element= {<Faq />} />
-      <Route path="*" element= {<Error />} />
-      <Route path="terms" element= {<Terms />} />
-      <Route path="privacy" element= {<Privacy />} />
-      <Route path="delete-account" element= {<Form />} />
+
+
+      {/* <Route path="/" element= {<Index />} /> */}
+      {/* <Route path="/about" element= {<Body />} /> */}
+      {/* <Route path="/contact" element= {<Contact />} /> */}
+      {/* <Route path="/faqs" element= {<Faq />} /> */}
+      {/* <Route path="*" element= {<Error />} /> */}
+      {/* <Route path="/terms" element= {<Terms />} /> */}
+      {/* <Route path="/privacy" element= {<Privacy />} /> */}
+      {/* <Route path="/delete-account" element= {<Form />} /> */}
 
 
     {/* <Index/> */}
-    {/* <Indexzz/> */}
 
-    {/* <Body/> */}
+    <Body/>
 
     {/* <Contact/> */}
 
     {/* <Faq/> */}
     {/* <Error/> */}
 
-    </Routes>
+    {/* </Routes> */}
 
 
     
@@ -60,7 +61,7 @@ function App() {
 
     <Footer/>
 
-    </BrowserRouter>
+    {/* </BrowserRouter> */}
 
     
 

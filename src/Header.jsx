@@ -98,9 +98,9 @@ function Header() {
         
                             
                 <li className="div-7" id="h-btn"><a href="/">Home</a> <hr /> </li>
-                <li className="div-8" id="a-btn"><a href="about">About</a> <hr /></li>
-                <li className="div-9" id="c-btn"><a href="contact">Contact</a> <hr /></li>
-                <li className="div-10" id="f-btn"><a href="faqs">FAQS</a><hr /></li>
+                <li className="div-8" id="a-btn"><a href="/about">About</a> <hr /></li>
+                <li className="div-9" id="c-btn"><a href="/contact">Contact</a> <hr /></li>
+                <li className="div-10" id="f-btn"><a href="/faqs">FAQS</a><hr /></li>
 
             </ul>
 
