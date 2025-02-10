@@ -121,7 +121,7 @@ function Body(){
             <div className="div-48">
                 <div className="column-6">
                     {/* <div className="div-49"/> */}
-                    <img id="team-frame" src=".//public/abtImages/teamframe.png" alt="frame" />
+                    <img id="team-frame" src="./abtImages/teamframe.png" alt="frame" />
                     {/* <img className="team-img" src=".//public/abtImages/teamimg1.png" alt="john D" />
                     <img className="team-img1" src=".//public/abtImages/teamimg1.png" alt="head D" />
                     <img className="team-img2" src=".//public/abtImages/teamimg1.png" alt="john D" /> */}
@@ -223,7 +223,7 @@ function Body(){
 
                     {/* mobile view phone */}
                     
-                    <img className="resimgg-12" id="bodyresimg12" src=".//public/images/resmobile.svg" alt="swiftphone" />
+                    <img className="resimgg-12" id="bodyresimg12" src="./images/resmobile.svg" alt="swiftphone" />
 
 
                     {/* <button className="inddiv-21" id="inddiv212" >
