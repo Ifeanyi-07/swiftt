@@ -94,9 +94,9 @@ function Footer() {
             <ul className="div-99">
                 <div className="div-100">Legal</div>
                 <div className="p-div3">
-                    <li className="div-101"><a href="/terms">Terms & Condition</a></li>
-                    <li className="div-102"><a href="/privacy">Privacy Policy</a></li>
-                    {/* <li className="div-103"><a href="/delete-account">Delete Account</a></li> */}
+                    <li className="div-101"><Link to="/terms">Terms & Condition</Link></li>
+                    <li className="div-102"><Link to="/privacy">Privacy Policy</Link></li>
+                    {/* <li className="div-103"><Link to="/delete-account">Delete Account</Link></li> */}
                 </div>
             </ul>
 
