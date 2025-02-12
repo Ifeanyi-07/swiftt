@@ -1,9 +1,14 @@
+import Header from "./Header";
+import Footer from "./Footer";
+
 
 function Body(){
     
 
     return(
         <>
+        <Header></Header>
+
 <div className="divv">
     <div className="div-2">
        
@@ -247,6 +252,8 @@ function Body(){
 
     
 </div>
+
+<Footer></Footer>
 
 
         </>

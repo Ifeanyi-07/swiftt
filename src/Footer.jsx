@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function Footer() {
 
@@ -53,10 +54,15 @@ function Footer() {
             <ul className="div-87">
                 <div className="div-88">Company</div>
                 <div className="p-div">
-                    <li className="div-89"><a href="/about">About Us</a></li>
+                    {/* <li className="div-89"><a href="/about">About Us</a></li>
                     <li className="div-90"><a href="/contact">Contact</a></li>
                     <li className="div-91"><a href="#">Blog</a></li>
-                    <li className="div-92"><a href="/faqs">FAQS</a></li>
+                    <li className="div-92"><a href="/faqs">FAQS</a></li> */}
+
+                    <li className="div-89"><Link to="/about">About Us</Link></li>
+                    <li className="div-89"><Link to="/contact">Contact</Link></li>
+                    <li className="div-89"><Link to="#">Blog</Link></li>
+                    <li className="div-89"><Link to="/faqs">FAQS</Link></li>
                 </div>
             </ul>
             {/* <div className="div-87">

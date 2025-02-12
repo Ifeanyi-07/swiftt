@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 
 function Index() {
 
@@ -110,6 +112,8 @@ function Index() {
 
     return(
         <>
+            <Header></Header>
+
             <div className="inddiv">
 
                 <div className="inddiv-13">
@@ -359,7 +363,7 @@ function Index() {
                                     <img className="imgg-12" src="./images/swiftfiat mockup.png" alt="swiftphone" />
 
                                     {/* mobile view phone */}
-                                    <img className="resimgg-12" src=".//public/images/resmobile.svg" alt="swiftphone" />
+                                    <img className="resimgg-12" src="./images/resmobile.svg" alt="swiftphone" />
                                 </div>
                             </div>
                         </div>
@@ -486,6 +490,8 @@ function Index() {
 
 
             </div>
+
+            <Footer></Footer>
         
         </>
     );

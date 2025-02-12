@@ -212,7 +212,7 @@
         }
 
         .horizontal-container-33{
-          min-height: 70vh;
+          height: 70vh;
           /* top: 11%; */
           background: #F8F8FF;
           /* background: whitesmoke ; */
@@ -2040,6 +2040,7 @@
         list-style: none;
         /* text-decoration: none; */
         /* margin: 5px; */
+        line-height: 200%;
         /* margin-top: 3px; */
       }
       .div-87 li a{

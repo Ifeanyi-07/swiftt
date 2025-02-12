@@ -12,7 +12,9 @@ import Form from "./Form"
 
 import Footer from "./Footer"
 
-// import { BrowserRouter, Routes, Route} from "react-router-dom"
+// import { BrowserRouter, Routes, Route} from 'react-router-dom'
+
+// import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 
 
@@ -20,11 +22,12 @@ import Footer from "./Footer"
 function App() {
 
   return(
-    <>
+    <div>
 
     {/* <BrowserRouter> */}
+    
 
-    <Header/>
+    {/* <Header/> */}
 
     
 
@@ -33,24 +36,25 @@ function App() {
       {/* <Route index element= {<Index/>} /> */}
 
 
-      {/* <Route path="/" element= {<Index />} /> */}
-      {/* <Route path="/about" element= {<Body />} /> */}
-      {/* <Route path="/contact" element= {<Contact />} /> */}
-      {/* <Route path="/faqs" element= {<Faq />} /> */}
-      {/* <Route path="*" element= {<Error />} /> */}
-      {/* <Route path="/terms" element= {<Terms />} /> */}
-      {/* <Route path="/privacy" element= {<Privacy />} /> */}
-      {/* <Route path="/delete-account" element= {<Form />} /> */}
+      {/* <Route exact path="/" element= {<Index />} />
+      <Route exact path="/about" element= {<Body />} />
+      <Route exact path="/contact" element= {<Contact />} />
+      <Route exact path="/faqs" element= {<Faq />} />
+      <Route exact path="*" element= {<Error />} />
+      <Route exact path="/terms" element= {<Terms />} />
+      <Route exact path="/privacy" element= {<Privacy />} />
+      <Route exact path="/delete-account" element= {<Form />} /> */}
 
 
     {/* <Index/> */}
 
-    <Body/>
+    {/* <Body/> */}
 
     {/* <Contact/> */}
 
     {/* <Faq/> */}
     {/* <Error/> */}
+
 
     {/* </Routes> */}
 
@@ -59,16 +63,71 @@ function App() {
 
 
 
-    <Footer/>
+    {/* <Footer/> */}
 
     {/* </BrowserRouter> */}
 
     
 
 
+    {/* <Router>
+      <div className="App">
+        <Header />
+        <div className="content">
+          <Switch>
+
+            <Route exact path="/">
+              <Index />
+            </Route>
+
+            <Route path="/about">
+              <Body />
+            </Route>
+
+            <Route path="/contact">
+              <Contact />
+            </Route>
+
+            <Route path="/faq">
+              <Faq />
+            </Route>
+
+            <Route path="*">
+              <Error />
+            </Route>
+
+            <Route path="/terms">
+              <Terms />
+            </Route>
+
+            <Route path="/privacy">
+              <Privacy />
+            </Route>
+
+            <Route path="/delete-account">
+              <Form />
+            </Route>
+
+
+          </Switch>
+
+        </div>
+
+        <Footer />
+
+
+      </div>
+
+
+
+
+    </Router> */}
+    
+
+
   
     
-    </>
+    </div>
   )
   
 }

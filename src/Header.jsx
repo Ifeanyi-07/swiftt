@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
 
@@ -49,10 +49,15 @@ function Header() {
 
     
                         
-                            <li className="div-7"><a href="/">Home</a></li>
+                            {/* <li className="div-7"><a href="/">Home</a></li>
                             <li className="div-8"><a href="/about">About</a></li>
                             <li className="div-9"><a href="/contact">Contact</a></li>
-                            <li className="div-10"><a href="/faqs">FAQS</a></li>
+                            <li className="div-10"><a href="/faqs">FAQS</a></li> */}
+
+                            <li className="div-7"><Link to="/">Home</Link></li>
+                            <li className="div-7"><Link to="/about">About</Link></li>
+                            <li className="div-7"><Link to="/contact">Contact</Link></li>
+                            <li className="div-7"><Link to="/faqs">FAQS</Link></li>
 
 
                                 {/* <div className="burger">
@@ -96,11 +101,16 @@ function Header() {
             <ul className="div-6" id="res-ul">
 
         
-                            
+{/*                             
                 <li className="div-7" id="h-btn"><a href="/">Home</a> <hr /> </li>
                 <li className="div-8" id="a-btn"><a href="/about">About</a> <hr /></li>
                 <li className="div-9" id="c-btn"><a href="/contact">Contact</a> <hr /></li>
-                <li className="div-10" id="f-btn"><a href="/faqs">FAQS</a><hr /></li>
+                <li className="div-10" id="f-btn"><a href="/faqs">FAQS</a><hr /></li> */}
+
+                <li className="div-7" id="h-btn"><Link to="/">Home</Link> <hr /> </li>
+                <li className="div-7" id="h-btn"><Link to="/about">About</Link> <hr /> </li>
+                <li className="div-7" id="h-btn"><Link to="/contact">Contact</Link> <hr /> </li>
+                <li className="div-7" id="h-btn"><Link to="/faqs">FAQS</Link> <hr /> </li>
 
             </ul>
 

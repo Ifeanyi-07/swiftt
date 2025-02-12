@@ -1,6 +1,11 @@
+import Header from "./Header";
+import Footer from "./Footer";
 
 function Terms() {
     return(
+        <>
+            <Header></Header>
+
         <div className="myterms">
             <h2>Terms & Conditions</h2>
             <h4>Transactions</h4>
@@ -18,6 +23,10 @@ function Terms() {
             </p>
 
         </div>
+
+        <Footer></Footer>
+
+        </>
 
     );
 }

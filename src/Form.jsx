@@ -1,7 +1,11 @@
+import Header from "./Header";
+import Footer from "./Footer";
 
 function Form(){
 
     return(
+        <>
+        <Header></Header>
 
         <form action="" className="priv-form">
             <h4>Now just a minute</h4>
@@ -19,6 +23,10 @@ function Form(){
 
 
         </form>
+
+        <Footer></Footer>
+
+        </>
     );
 }
 

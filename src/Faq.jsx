@@ -1,9 +1,13 @@
+import Header from "./Header";
+import Footer from "./Footer";
 
 function Faq() {
 
     return(
 
         <>
+            <Header></Header>
+
             <div className="faqdiv">
                 <div className="faqdiv-15">
                     <div className="faqdiv-16">Need support</div>
@@ -181,7 +185,7 @@ function Faq() {
                                     <img className="imgg-12" src="./images/swiftfiat mockup.png" alt="swiftphone" />
 
                                     {/* mobile view phone */}
-                                    <img className="resimgg-12" src=".//public/images/resmobile.svg" alt="swiftphone" />
+                                    <img className="resimgg-12" src="./images/resmobile.svg" alt="swiftphone" />
                                 </div>
                             </div>
                         </div>
@@ -196,6 +200,9 @@ function Faq() {
 
 
             </div>
+
+
+            <Footer></Footer>
 
 
 

@@ -1,8 +1,11 @@
+import Header from "./Header";
+import Footer from "./Footer";
 
 function Privacy() {
 
     return(
         <>
+            <Header></Header>
 
             <div className="privacy">
 
@@ -220,6 +223,8 @@ function Privacy() {
 
 
             </div>
+
+            <Footer></Footer>
         
         </>
         
